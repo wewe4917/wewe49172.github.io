@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Logint</title>
+</head>
+<style type="text/css">
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/lato/v17/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+body {
+	font-family: 'Lato';
+	font-size: 13px;
+	line-height: 1.6em;
+}
+h1 {
+	color: white;
+}
+
+.container {
+	width: 580px;
+	position: absolute;
+	top: 33.5%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 1px solid #e8e8e8;
+	border-radius: 5px;
+	padding: 30px;
+	box-shadow: 0 0 30px;
+	
+}
+.container h1 {
+	border-bottom: 10px solid red;
+	padding-bottom: 20px;
+	margin-bottom: 40px;
+	font-weight: normal;
+	font-size: 20px;
+}
+.container > div {
+	float:  left;
+	box-sizing: border-box;
+}
+
+.container > div {
+	width: 580px;
+}
+form.login {
+	background-color: #eee;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 1px 1px lightgray;
+}
+form.login label {
+	font-weight: bold;
+	font-size: 0.8em;
+}
+form.login input[type=text],
+form.login input[type=password] {
+display: block;	
+width: 95%;
+border-radius: 5px;
+padding: 7px 10px;
+border: 1px solid lightgray;
+margin-bottom: 10px;
+}
+
+form.login input[type=checkbox] {
+	vertical-align: middle;
+
+}
+
+form.login a{
+	display: block;
+	width: 120px;
+	padding: 7px 10px;
+	background-color: #1e9d9d;
+	text-align: center;
+	font-size: 1.1em;
+	margin: 20px;
+	text-decoration: none;
+}
+form.login a:hover {
+	opacity: 0.8;
+}
+</style>
+<body>
+	<div class="container">
+		<h1>SpaceX 로그인 </h1>
+		<div class="login-form">
+			<form class="login">
+				<label>이메일</label>
+				<input type="text" placeholder="email Address">
+				<label>비밀번호</label>
+				<input type="password" placeholder="Password">
+				<input type="checkbox" checked>
+				로그인 상태유지
+				<a href="location.html">로그인</a>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>연결 상태 표시</title>
+</head>
+<style type="text/css">
+	@import url('http://fonts.googleapis.com/css?family=Lato');
+
+body {
+	font-family: 'Lato';
+	font-size: 13px;
+	line-height: 1.5em;
+}
+
+
+
+form.con {
+	background-color: #EAEAEA;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 1px 1px lightgray;
+	opacity: 0.85;
+}
+form.con label {
+	font-weight: normal;
+	font-size: 17px;
+}
+
+
+form.con input[type=checkbox] {
+	vertical-align: middle;
+
+}
+
+form.con a{
+	display: block;
+	color: white;
+	width: 120px;
+	padding: 10px 10px;
+	background-color: #47C83E;
+	text-align: center;
+	font-size: 17px;
+	font-weight: bold;
+	margin: 0px;
+	margin-left: 115px;
+	text-decoration: none;
+	border-radius: 5px;
+	word-spacing: 5px;
+
+}
+form.con a:hover {
+	opacity: 0.8;
+}
+#arrow {
+	float: right;
+}
+</style>
+<body>
+		<div class="con-form">
+			<form class="con">
+				<h2>연결 상태<span id = 'arrow'>▶</span></h2>
+				<hr>
+				<p>
+				<label>현재 스타링크 프로그램이 실행중이 아닙니다.</label>
+				<p>
+				<input type="checkbox" checked>
+			 		연결 상태유지
+				<a href="Realco2.html">▶ 	연결하기</a>
+				
+			</form>
+		</div>
+
+</body>
+</html>
